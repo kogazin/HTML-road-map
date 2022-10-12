@@ -1,0 +1,243 @@
+@import "./variables.scss";
+@import "./functions";
+
+HTML CSSResult Skip Results Iframe EDIT ON .parent {
+    background-color: #ccc;
+  }
+  
+  /* 能宗担当分 */
+  /* ヘッダー */
+  .header-container {
+    text-align: center;
+  }
+  
+  .necmos-icon {
+    margin:25px 0 0 50px;
+  }
+  
+  .header h1 {
+    font-size: 65px;
+    margin-bottom: 0;
+  }
+  
+  .header h3 {
+    color: #555555;
+  }
+  
+  .header h4 {
+    border: solid 1px #DDDDDD;
+    padding: 5px 0;;
+    margin: 0 700px 50px;
+  }
+  
+  /* フロントエンド */
+  .frontend-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+
+    .frontend-wrapper-left {
+      border: solid 3px #000000;  
+      text-align: left;
+
+      ul {
+        list-style: none;
+
+        li {
+          padding: 2px;
+        }
+      }
+    }
+    
+    .frontend h1 {
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    .frontend-wrapper-right {
+      border: solid 3px #000000;  
+      text-align: center;;
+
+      a {
+        text-decoration: none;
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 2px;
+        padding: 15px 80px;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  
+  
+  /* インターネット */
+  .internet-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+
+    .internet-wrapper-left {
+      text-align: center;
+
+      .InternetWork {
+        @include boxTemplate;
+        margin: 0 180px 0;
+      }
+        
+      .Http, .Browsers {
+        @include boxTemplate;
+        margin: 10px 180px 0;
+      }
+    }
+    
+    .Internet {
+      @include centerBoxTemplate;
+      text-align: center;
+      margin: 50px 180px 0;
+      background-color: $centerBoxColor;
+      font-weight: bold;
+    }
+    
+    .Internet:hover {
+      opacity: 0.5;
+    }
+    
+    .internet-wrapper-right { 
+      text-align: center;
+      .Dns {
+        @include boxTemplate;
+        margin: 0 180px 0;
+      }
+      
+      .Domain, .Hosting {
+        @include boxTemplate;
+        margin-top: 10px;
+        margin: 10px 180px 0;
+      }    
+    }
+  }
+  
+  
+  /* HTML,CSS,Javascript */
+  .html-css-js-container {
+    margin-top: 50px;
+    text-align: center;
+
+      /* HTML */
+    .html-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .html-outer-left {
+        .HtmlBasics {
+          @include boxTemplate;
+          margin: 0 180px 0;
+        }
+
+        .Semamtic, .Validations, .Conventions {
+          @include boxTemplate;
+          margin: 10px 180px 0;
+        }    
+      }
+    }
+  
+  
+    .HTML {
+      @include centerBoxTemplate;
+      font-weight: bold;
+      margin: 50px 180px 0;
+    }
+  
+    .html-outer-right {
+      .Accessibility {
+        @include boxTemplate;
+        margin: 0 180px 0;
+      }
+
+      .SEOBasics {
+        @include boxTemplate;
+        margin: 10px 180px 0;
+      }
+  }
+
+  
+   /* CSS */
+  .css-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .CSS {
+      @include centerBoxTemplate;
+      font-weight: bold;
+      margin: 50px 180px 0;
+    }
+
+    .css-outer-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      .css-outer-right1 {
+        .CSSBasics {
+          @include boxTemplate;
+          margin: 0px 10px 0;
+        }
+        .MakeingLayouts, .ResponsiveDesign {
+          @include boxTemplate;
+          margin: 10px 10px 0;
+        }
+      }
+  
+      .css-outer-right2 {
+        .MakingLayouts2 {
+          @include boxTemplate;
+          margin-left: 30px;
+          text-align: center;
+        }  
+      }
+    }  
+  }
+    
+  
+  /* JavaScript */
+  .js-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    .js-wrapper-left {
+      .Syntax {
+        @include boxTemplate;
+        margin: 0 180px 0;
+      }
+      
+      .DOMManipulation, .FetchAPIAjax, .ED6ModularJavaScript, .UnderatandTheConcepts {
+        @include boxTemplate;
+        margin: 10px 180px 0;
+
+        li {
+          list-style: none;
+        } 
+      }
+    }
+    
+    .Javascript {
+      @include centerBoxTemplate;
+      font-weight: bold;
+      margin: 50px 180px 0;
+    }
+  } 
+
+  
+  
+  /* フッター */
+  .footer {
+    background-color: #000000;
+    margin-top: 50px;
+    padding: 50px;
+
+    // コピーライト
+    small {
+      color: #828282;
+      padding-left: 140px;
+    }
+  }

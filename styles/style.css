@@ -1,0 +1,226 @@
+@charset "UTF-8";
+HTML CSSResult Skip Results Iframe EDIT ON .parent {
+  background-color: #ccc;
+}
+
+/* 能宗担当分 */
+/* ヘッダー */
+.header-container {
+  text-align: center;
+}
+
+.necmos-icon {
+  margin: 25px 0 0 50px;
+}
+
+.header h1 {
+  font-size: 65px;
+  margin-bottom: 0;
+}
+
+.header h3 {
+  color: #555555;
+}
+
+.header h4 {
+  border: solid 1px #DDDDDD;
+  padding: 5px 0;
+  margin: 0 700px 50px;
+}
+
+/* フロントエンド */
+.frontend-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.frontend-container .frontend-wrapper-left {
+  border: solid 3px #000000;
+  text-align: left;
+}
+.frontend-container .frontend-wrapper-left ul {
+  list-style: none;
+}
+.frontend-container .frontend-wrapper-left ul li {
+  padding: 2px;
+}
+.frontend-container .frontend h1 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+.frontend-container .frontend-wrapper-right {
+  border: solid 3px #000000;
+  text-align: center;
+}
+.frontend-container .frontend-wrapper-right a {
+  text-decoration: none;
+  background-color: blue;
+  color: aliceblue;
+  border-radius: 2px;
+  padding: 15px 80px;
+  font-weight: bold;
+}
+
+/* インターネット */
+.internet-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+.internet-container .internet-wrapper-left {
+  text-align: center;
+}
+.internet-container .internet-wrapper-left .InternetWork {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  padding: 5px 0;
+  margin: 0 180px 0;
+}
+.internet-container .internet-wrapper-left .Http, .internet-container .internet-wrapper-left .Browsers {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  padding: 5px 0;
+  margin: 10px 180px 0;
+}
+.internet-container .Internet {
+  border: solid 3px #000000;
+  text-align: center;
+  margin: 50px 180px 0;
+  background-color: #FFFF00;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.internet-container .Internet:hover {
+  opacity: 0.5;
+}
+.internet-container .internet-wrapper-right {
+  text-align: center;
+}
+.internet-container .internet-wrapper-right .Dns {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  padding: 5px 0;
+  margin: 0 180px 0;
+}
+.internet-container .internet-wrapper-right .Domain, .internet-container .internet-wrapper-right .Hosting {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin-top: 10px;
+  padding: 5px 0;
+  margin: 10px 180px 0;
+}
+
+/* HTML,CSS,Javascript */
+.html-css-js-container {
+  margin-top: 50px;
+  text-align: center;
+  /* HTML */
+  /* CSS */
+  /* JavaScript */
+}
+.html-css-js-container .html-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.html-css-js-container .html-wrapper .html-outer-left .HtmlBasics {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 0 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .html-wrapper .html-outer-left .Semamtic, .html-css-js-container .html-wrapper .html-outer-left .Validations, .html-css-js-container .html-wrapper .html-outer-left .Conventions {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 10px 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .HTML {
+  border: solid 3px #000000;
+  background-color: #FFFF00;
+  font-weight: bold;
+  margin: 50px 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .html-outer-right .Accessibility {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 0 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .html-outer-right .SEOBasics {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 10px 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .css-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.html-css-js-container .css-wrapper .CSS {
+  border: solid 3px #000000;
+  background-color: #FFFF00;
+  font-weight: bold;
+  margin: 50px 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .css-wrapper .css-outer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.html-css-js-container .css-wrapper .css-outer-container .css-outer-right1 .CSSBasics {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 0px 10px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .css-wrapper .css-outer-container .css-outer-right1 .MakeingLayouts, .html-css-js-container .css-wrapper .css-outer-container .css-outer-right1 .ResponsiveDesign {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 10px 10px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .css-wrapper .css-outer-container .css-outer-right2 .MakingLayouts2 {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin-left: 30px;
+  padding: 5px 0;
+  text-align: center;
+}
+.html-css-js-container .js-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.html-css-js-container .Syntax {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 0 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .DOMManipulation, .html-css-js-container .FetchAPIAjax, .html-css-js-container .ED6ModularJavaScript, .html-css-js-container .UnderatandTheConcepts {
+  border: solid 3px #000000;
+  background-color: #FFDAB9;
+  margin: 10px 180px 0;
+  padding: 5px 0;
+}
+.html-css-js-container .UnderatandTheConcepts li {
+  list-style: none;
+}
+.html-css-js-container .Javascript {
+  border: solid 3px #000000;
+  background-color: #FFFF00;
+  font-weight: bold;
+  margin: 50px 180px 0;
+  padding: 5px 0;
+}
+/* フッター */
+.footer {
+  background-color: #000000;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.footer small {
+  color: #828282;
+  padding-left: 140px;
+}/*# sourceMappingURL=style.css.map */

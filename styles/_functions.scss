@@ -1,0 +1,18 @@
+// 関数をまとめたファイルです。
+
+//   Internet、HTML、CSS、JavaScriptのSCSSテンプレート
+@mixin centerBoxTemplate {
+    border: solid 3px $borderColor;
+    background-color: $centerBoxColor;
+    padding: 5px 0;
+  }
+
+// 上記以外のボックスのテンプレート(「インターネットの仕組み」など)
+@mixin boxTemplate {
+    border: solid 3px $borderColor;
+    background-color: $boxColor;
+    padding: 5px 0;
+  }
+
+
+  
