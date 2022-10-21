@@ -6,13 +6,13 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 /* フロントエンド */
 .frontend-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .frontend-wrapper-left {
-  border: solid 3px #000000;  
+  border: solid 3px #000000;
   text-align: left;
-  }
+}
 
 .frontend-wrapper-left ul {
   list-style: none;
@@ -22,7 +22,6 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   padding: 2px;
 }
 
-
 .frontend h1 {
   font-weight: bold;
   text-align: center;
@@ -30,7 +29,7 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 }
 
 .frontend-wrapper-right {
-  border: solid 3px #000000;  
+  border: solid 3px #000000;
   text-align: center;
 }
 
@@ -54,9 +53,10 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   text-align: center;
 }
 
-.InternetWork, .Dns {
+.InternetWork,
+.Dns {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   padding: 5px 0;
   margin: 0 180px 0;
 }
@@ -66,9 +66,10 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   color: #000000; */
 }
 
-.Http, .Browsers {
+.Http,
+.Browsers {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   padding: 5px 0;
   margin: 10px 180px 0;
 }
@@ -77,7 +78,7 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   border: solid 3px #000000;
   text-align: center;
   margin: 50px 180px 0;
-  background-color: #FFFF00;
+  background-color: #ffff00;
   padding: 5px 0;
   font-weight: bold;
 }
@@ -86,9 +87,10 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   text-align: center;
 }
 
-.Domain, .Hosting {
+.Domain,
+.Hosting {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin-top: 10px;
   padding: 5px 0;
   margin: 10px 180px 0;
@@ -106,23 +108,25 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.HtmlBasics{
+.HtmlBasics {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 0 180px 0;
   padding: 5px 0;
 }
 
-.Semamtic, .Validations, .Conventions {
+.Semamtic,
+.Validations,
+.Conventions {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 10px 180px 0;
   padding: 5px 0;
 }
 
 .HTML {
   border: solid 3px #000000;
-  background-color: #FFFF00;
+  background-color: #ffff00;
   font-weight: bold;
   margin: 50px 180px 0;
   padding: 5px 0;
@@ -130,19 +134,19 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 
 .Accessibility {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 0 180px 0;
   padding: 5px 0;
 }
 
- .SEOBasics {
+.SEOBasics {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 10px 180px 0;
   padding: 5px 0;
- }
+}
 
- /* CSS */
+/* CSS */
 .css-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -151,12 +155,11 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 .css-wrapper-left {
   /* border: solid 3px #000000;
   background-color: #FFFF00; */
-
 }
 
 .CSS {
   border: solid 3px #000000;
-  background-color: #FFFF00;
+  background-color: #ffff00;
   font-weight: bold;
   margin: 50px 180px 0;
   padding: 5px 0;
@@ -164,7 +167,7 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 
 .CSSBasics {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 0px 10px 0;
   padding: 5px 0;
 }
@@ -174,16 +177,17 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
   grid-template-columns: 1fr 1fr;
 }
 
-.MakeingLayouts, .ResponsiveDesign {
+.MakeingLayouts,
+.ResponsiveDesign {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 10px 10px 0;
   padding: 5px 0;
 }
 
 .MakingLayouts2 {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin-left: 30px;
   padding: 5px 0;
   text-align: center;
@@ -197,14 +201,17 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 
 .Syntax {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 0 180px 0;
   padding: 5px 0;
 }
 
-.DOMManipulation, .FetchAPIAjax, .ED6ModularJavaScript, .UnderatandTheConcepts {
+.DOMManipulation,
+.FetchAPIAjax,
+.ED6ModularJavaScript,
+.UnderatandTheConcepts {
   border: solid 3px #000000;
-  background-color: #FFDAB9;
+  background-color: #ffdab9;
   margin: 10px 180px 0;
   padding: 5px 0;
 }
@@ -215,7 +222,7 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 
 .Javascript {
   border: solid 3px #000000;
-  background-color: #FFFF00;
+  background-color: #ffff00;
   font-weight: bold;
   margin: 50px 180px 0;
   padding: 5px 0;
@@ -227,7 +234,6 @@ HTML CSSResult Skip Results Iframe EDIT ON .parent {
 /* フッター */
 .footer {
   background-color: #000000;
-
 }
 
 .footer small {
